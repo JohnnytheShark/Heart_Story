@@ -1,0 +1,11 @@
+.details{
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+@media screen and (max-width: 768px){
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+}

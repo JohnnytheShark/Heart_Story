@@ -1,0 +1,22 @@
+.details{
+    margin: 25px;
+}
+
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.chart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px){
+    .details{
+        max-width: 100vw;
+    }
+}
